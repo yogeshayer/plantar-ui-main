@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "plantar-ui",
+    "slug": "plantar-ui",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "plantarui",
+    "platforms": ["ios", "android", "web"],
+    "entryPoint": "./index.js",
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
